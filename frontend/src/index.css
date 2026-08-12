@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ::selection {
+    background-color: rgba(185, 139, 42, 0.2);
+  }
+  :focus-visible {
+    outline: 2px solid #3c5233;
+    outline-offset: 2px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      /* Use 0ms rather than a tiny fractional value to avoid parser edge-cases */
+      animation-duration: 0ms !important;
+      transition-duration: 0ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Dot-leader row used across the printed menu: Name .......... $12.00 */
+  .leader-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+  .leader-row .leader-fill {
+    flex: 1 1 auto;
+    border-bottom: 1px dotted rgba(36, 48, 31, 0.35);
+    transform: translateY(-4px);
+  }
+
+  /* Perforated top edge on the order docket, evoking a torn receipt */
+  .docket-perforation {
+    background-image: radial-gradient(circle, rgba(36, 48, 31, 0.18) 1.5px, rgba(36, 48, 31, 0) 1.5px);
+    background-size: 10px 10px;
+    background-position: 0 0;
+    height: 6px;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-sm bg-forest px-4 py-2 text-sm font-semibold text-paper transition-colors hover:bg-forest-dark disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-sm border border-ink/20 bg-transparent px-4 py-2 text-sm font-semibold text-ink transition-colors hover:border-ink/40 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .input-field {
+    @apply w-full rounded-sm border border-ink/20 bg-paper px-3 py-2 text-sm text-ink placeholder:text-ink/40 focus:border-forest;
+  }
+  .label-eyebrow {
+    @apply font-mono text-[11px] uppercase tracking-[0.18em] text-ink/50;
+  }
+}
