@@ -1,7 +1,7 @@
 import { useAuth } from '../context/AuthContext';
 import { useCart } from '../context/CartContext';
 
-const money = (n) => `$${n.toFixed(2)}`;
+const money = (n) => `₹${n.toFixed(0)}`;
 
 export default function MenuItemRow({ item }) {
   const { user } = useAuth();

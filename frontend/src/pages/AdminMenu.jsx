@@ -111,7 +111,7 @@ export default function AdminMenu() {
             </select>
           </div>
           <div>
-            <label className="mb-1 block text-xs font-medium text-ink/70">Price (USD)</label>
+            <label className="mb-1 block text-xs font-medium text-ink/70">Price (INR)</label>
             <input required type="number" step="0.01" min="0" value={form.price} onChange={(e) => setForm({ ...form, price: e.target.value })} className="input-field" />
           </div>
           <div>
@@ -154,7 +154,7 @@ export default function AdminMenu() {
                 <tr key={item._id} className="border-t border-ink/10">
                   <td className="px-4 py-3 font-medium text-ink">{item.name}</td>
                   <td className="px-4 py-3 text-ink/60">{item.category}</td>
-                  <td className="px-4 py-3 font-mono text-brass">${item.price.toFixed(2)}</td>
+                  <td className="px-4 py-3 font-mono text-brass">₹{item.price.toFixed(0)}</td>
                   <td className="px-4 py-3">
                     <button
                       onClick={() => toggleAvailability(item)}

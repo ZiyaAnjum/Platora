@@ -6,7 +6,7 @@ const asyncHandler = require('../utils/asyncHandler');
 
 const REDEEM_THRESHOLD = Number(process.env.LOYALTY_REDEEM_THRESHOLD || 100);
 const REDEEM_DISCOUNT_PERCENT = Number(process.env.LOYALTY_REDEEM_DISCOUNT_PERCENT || 10);
-const POINTS_PER_CURRENCY_UNIT = Number(process.env.LOYALTY_POINTS_PER_CURRENCY_UNIT || 0.1); // 1 point per $10 spent
+const POINTS_PER_CURRENCY_UNIT = Number(process.env.LOYALTY_POINTS_PER_CURRENCY_UNIT || 0.1); // 1 point per ₹10 spent
 
 // @route   POST /api/order
 // @access  Private/Customer

@@ -3,7 +3,7 @@ import * as api from '../lib/api';
 import StatusTimeline from '../components/StatusTimeline';
 
 const STATUSES = ['Pending', 'Preparing', 'Out for delivery', 'Delivered'];
-const money = (n) => `$${n.toFixed(2)}`;
+const money = (n) => `₹${n.toFixed(0)}`;
 const formatDate = (iso) =>
   new Date(iso).toLocaleString(undefined, { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' });
 

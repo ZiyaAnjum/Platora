@@ -6,7 +6,7 @@ A backend for a restaurant platform: customers browse the menu and place orders,
 
 ## ✨ Standout feature: Loyalty & Rewards Program
 
-Every order automatically earns the customer **loyalty points** (1 point per $10 spent, configurable). Once a customer accumulates enough points (default: 100), they can opt in to redeem them on their **next order** for an automatic 10% discount — no coupon codes, no manual admin work. The discount, points redeemed, and points earned are all calculated **server-side** and returned with every order, and the running balance is visible via `GET /api/profile`. Every order also keeps a **status timeline** (`statusHistory`) showing exactly when it moved from Pending → Preparing → Out for delivery → Delivered.
+Every order automatically earns the customer **loyalty points** (1 point per ₹10 spent, configurable). Once a customer accumulates enough points (default: 100), they can opt in to redeem them on their **next order** for an automatic 10% discount — no coupon codes, no manual admin work. The discount, points redeemed, and points earned are all calculated **server-side** and returned with every order, and the running balance is visible via `GET /api/profile`. Every order also keeps a **status timeline** (`statusHistory`) showing exactly when it moved from Pending → Preparing → Out for delivery → Delivered.
 
 ---
 

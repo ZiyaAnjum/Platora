@@ -22,7 +22,7 @@
 }
 
 @layer components {
-  /* Dot-leader row used across the printed menu: Name .......... $12.00 */
+  /* Dot-leader row used across the printed menu: Name .......... ₹12 */
   .leader-row {
     display: flex;
     align-items: baseline;

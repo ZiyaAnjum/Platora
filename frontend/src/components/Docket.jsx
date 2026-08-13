@@ -3,7 +3,7 @@ import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
 import * as api from '../lib/api';
 
-const money = (n) => `$${n.toFixed(2)}`;
+const money = (n) => `₹${n.toFixed(0)}`;
 
 export default function Docket() {
   const cart = useCart();
