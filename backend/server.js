@@ -13,7 +13,10 @@ const orderRoutes = require('./routes/orderRoutes');
 const app = express();
 
 // --- Core middleware ---
-app.use(cors());
+app.use(cors({
+  origin: 'https://foglia-bay.vercel.app', // or an array of allowed origins
+  credentials: true,
+}));
 app.use(express.json()); // parse JSON request bodies
 app.use(express.urlencoded({ extended: true }));
 
