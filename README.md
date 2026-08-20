@@ -1,69 +1,4 @@
-Here's the full content as plain text in a code block — select all and copy directly into your `README.md`:
-
-```
-<div align="center">
-
-# 🍃 Foglia — Restaurant Platform
-
-**Table service, made simple.** A full-stack restaurant ordering platform — customers browse the menu and order, admins run the kitchen queue.
-
-[
-
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-
-](https://nodejs.org/)
-[
-
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-
-](https://expressjs.com/)
-[
-
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-
-](https://www.mongodb.com/)
-[
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-
-](https://react.dev/)
-[
-
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-
-](https://vitejs.dev/)
-[
-
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-](https://tailwindcss.com/)
-
-[
-
-![License](https://img.shields.io/github/license/your-username/foglia?style=flat-square)
-
-](./LICENSE)
-[
-
-![GitHub issues](https://img.shields.io/github/issues/your-username/foglia?style=flat-square)
-
-](https://github.com/your-username/foglia/issues)
-[
-
-![GitHub stars](https://img.shields.io/github/stars/your-username/foglia?style=flat-square)
-
-](https://github.com/your-username/foglia/stargazers)
-[
-
-![Last commit](https://img.shields.io/github/last-commit/your-username/foglia?style=flat-square)
-
-](https://github.com/your-username/foglia/commits/main)
-
-</div>
-
-> Replace `your-username/foglia` in the badge URLs above with your actual GitHub `username/repo` once it's pushed, so the badges resolve to your real repo stats.
-
----
+### FOGLIA
 
 ## 📌 Overview
 
@@ -278,25 +213,13 @@ The frontend's identity is built around a real restaurant device: the kitchen or
 - Admin analytics dashboard (best sellers, revenue by day)
 - Pagination on menu and order history endpoints
 
-## 🤝 Contributing
 
-Contributions are welcome!
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📄 License
 
 This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
 
-## 📞 Contact
 
-For questions or feedback, open an issue on this repository.
-
----
 
 <div align="center">
 
@@ -304,5 +227,3 @@ Made with 🍃 for the table.
 
 </div>
 ```
-
-Just remember to swap `your-username/foglia` for your real GitHub username and repo name before pushing, or those top badges will show as broken.
