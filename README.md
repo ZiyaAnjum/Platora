@@ -189,11 +189,6 @@ The frontend's identity is built around a real restaurant device: the kitchen or
 
 
 
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
-
-
 
 <div align="center">
 
