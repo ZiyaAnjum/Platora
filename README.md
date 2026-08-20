@@ -14,7 +14,6 @@ Foglia is a portfolio-ready restaurant ordering system: a JWT-secured REST API p
 - **Admin order queue** — filter by status, advance orders as the kitchen works through them
 - **INR pricing** — all prices shown in ₹ throughout the app
 
-```
 
 ## 🛠️ Tech Stack
 
